@@ -1,0 +1,50 @@
+.character {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    cursor: url('bunga.jpg'), auto;
+}
+
+#character1 {
+    background-image: url('bunga.jpg'); /* Ganti dengan URL foto karakter 1 */
+    background-size: 100px;
+}
+
+#character2 {
+    background-image: url('yange.jpg'); /* Ganti dengan URL foto karakter 2 */
+    background-size: 110px;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    z-index: 1000;
+    background-color: aliceblue;
+}
+
+.small-image {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('lope.jpg'); /* Ganti dengan URL foto gambar kecil */
+    background-size: 25px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+}
+
+.popup img {
+    width: 100%;
+    height: auto;
+}
